@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
 
 * {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: ethnocentric, sans-serif;
+  font-weight: 200;
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
@@ -95,12 +96,11 @@ section {
 }
 
 .header .logo {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: rgb(0, 0, 0);
-  font-weight: bolder;
   margin-right: auto;
-  font-family: 'Arizonia', cursive;
-
+  font-family: ethnocentric, sans-serif;
+font-style: normal;
 }
 
 .header .navbar ul {
@@ -973,12 +973,10 @@ section {
 
 .box .box-text h2 {
   font-size: 1rem;
-  font-weight: 500;
 }
 
 .box .box-text h3 {
   font-size: 0.9rem;
-  font-weight: 400;
   margin-bottom: 0.8rem;
 }
 
@@ -1011,7 +1009,6 @@ section {
   background: var(--text-color);
   border-radius: 5rem;
   color: var(--main-color);
-  font-weight: 400;
   font-size: 20px;
 }
 
